@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Open+Sans|Quicksand|Raleway|Source+Sans+Pro&display=swap");
+
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+
+
+.jumbotron {
+  background: none;
+  padding: 60px;
+  color: #ffffff;
+}
+#endpoint {
+    color: #ffffff;
+}
+body {
+  background-color: #080073;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: Quicksand;
+  font-size: medium;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+  padding-bottom: 100px;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Height: 100vh;
+    Width: 100vw; 
+}
+
+footer {
+  background: rgba(88, 88, 88, 0.637);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+  /*opacity: 95%;*/
+}
+
+footer p span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i+i {
+  padding: 0 0.5em;
+}
+
+
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(102, 101, 101, 0.2),
+    0 6px 20px 0 rgba(109, 109, 109, 0.19);
+  padding: 10px;
+  margin: 10px;
+  background:' rgba(255, 255, 255, 0.815)'
+}
+
+.card:hover {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*opacity: 100%;*/
+}
+
